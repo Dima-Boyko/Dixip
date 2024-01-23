@@ -1,0 +1,91 @@
+/* DIXIP STYLE */
+
+.dixip-wraper{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+}
+.dixip-bg{
+  position: relative;
+  margin: auto;
+  background-color: white;
+  /*width: 900px;
+  margin-top: 50px;*/
+}
+.dixip-bg p{
+  font-family: Arial;
+  font-size: 14px;
+  text-align: center;
+  margin: 0px;
+  min-height: 16px;
+}
+
+.dixip-wraper img{
+  position: relative;
+  padding: 5px;
+  //padding-top: 30px;
+  //width: 100%;
+
+
+}
+
+.dixip-close{
+  position: absolute;
+  right: 0px;
+  top: 2px;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  background: url(close.png);
+  background-repeat: no-repeat;
+  z-index: 50;
+  //background-color: rgba(255,255,255,0.7);
+  cursor: pointer;
+  border-radius: 5px;
+}
+.dixip-wraper .button-prev{
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  background: url(but_prev.png);
+  background-repeat: no-repeat;
+  z-index: 50;
+  display: none;
+  cursor: pointer;
+}
+
+
+.dixip-wraper .button-next{
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  background: url(but_next.png);
+  background-repeat: no-repeat;
+  z-index: 50;
+  display: none;
+  cursor: pointer;
+}
+
+.dixip-wraper .button-prev:hover{
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 5px;
+}
+
+.dixip-wraper .button-next:hover{
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 5px;
+}
+
+.dixip-bg:hover .button-next ,.dixip-bg:hover .button-prev{
+  display: block;
+}
+
